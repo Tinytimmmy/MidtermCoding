@@ -10,11 +10,11 @@ public class Course {
 	public int GradePoints;
 	public eMajor Major;
 
-	public Course(String course1, int gradep, eMajor major) {
+	public Course(String course1, int gradep, eMajor maJor) {
 		this.CourseID = UUID.randomUUID();
 		this.CourseName = course1;
 		this.GradePoints = gradep;
-		this.Major = major;
+		this.Major = maJor;
 	}
 	public UUID getCourseID(){
 		return CourseID;
