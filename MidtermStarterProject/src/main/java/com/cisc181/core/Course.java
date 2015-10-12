@@ -16,21 +16,27 @@ public class Course {
 		this.GradePoints = gradep;
 		this.Major = major;
 	}
+	public UUID getCourseID(){
+		return CourseID;
+	}
+	public void setCourseID(UUID courseid){
+		this.CourseID = courseid;
+	}
 
 	public String getCourseName() {
 		return CourseName;
 	}
 
-	public void setCourseName(String coursename) {
-		this.CourseName = coursename;
+	public void setCourseName(String course1) {
+		this.CourseName = course1;
 	}
 
 	public int getGradePoints() {
 		return GradePoints;
 	}
 
-	public void setGradePoints(int gradePoints) {
-		this.GradePoints = gradePoints;
+	public void setGradePoints(int gradep) {
+		this.GradePoints = gradep;
 	}
 
 	public eMajor getMajor() {
